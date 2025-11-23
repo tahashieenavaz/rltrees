@@ -1,6 +1,7 @@
 import numpy
 
 
+# adapted from: https://github.com/openai/baselines/blob/master/baselines/common/segment_tree.py
 class MinTree:
     def __init__(self, capacity: int):
         self.capacity = capacity

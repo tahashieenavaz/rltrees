@@ -4,17 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rltrees"
-version = "0.0.1"
+version = "0.0.11"
 authors = [
   { name="Taha Shieenavaz", email="shieenavaz@gmail.com" },
 ]
 description = "Sum tree and min tree implementation used particularly in reinforcement learning algorithms."
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = ["numpy"]
 [tool.setuptools]
 packages = ["rltrees"]
