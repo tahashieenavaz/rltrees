@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rltrees"
-version = "0.0.12"
+version = "0.0.13"
 authors = [
-  { name="Taha Shieenavaz", email="shieenavaz@gmail.com" },
+  { name="Taha Shieenavaz", email="tahashieenavaz@gmail.com" },
 ]
 description = "Sum tree and min tree implementation used particularly in reinforcement learning algorithms."
 readme = "README.md"
